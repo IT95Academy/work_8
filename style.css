@@ -28,6 +28,6 @@ body {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(990px);
+    transform: translateX(clamp(6.875rem, -13.125rem + 100vw, 61.875rem));
   }
 }
